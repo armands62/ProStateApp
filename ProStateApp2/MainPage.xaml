@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProStateApp2.MainPage" BackgroundColor="#D0D9DE" Title="Overview">
+    <ContentPage.Content>
+        <ScrollView>
+            <VerticalStackLayout x:Name="MainStack">
+                <Image Source="logo.png"
+                   SemanticProperties.Description="ProState Bank logo"
+                   HeightRequest="200"
+                   Margin="0,100,0,0"></Image>
+                <StackLayout Padding="20" Margin="10,70,10,10" BackgroundColor="White">
+                    <Grid>
+                        <Entry Margin="5,0,5,0" FontSize="20"  Text="" Placeholder="E-pasts" TextColor="Black"  x:Name="EpastsEntry" />
+                        <BoxView HeightRequest="1" Color="LightGray" VerticalOptions="End" Margin="0,0,0,5"/>
+                    </Grid>
+                    <Grid>
+                        <Entry Margin="5,0,5,0" FontSize="20" Text="" Placeholder="Parole" TextColor="Black" IsPassword="True" x:Name="ParoleEntry" />
+                        <BoxView HeightRequest="1" Color="LightGray" VerticalOptions="End" Margin="0,0,0,5"/>
+                    </Grid>
+                    <Label Margin="0,10,0,-10" FontSize="15" TextColor="Red" Text="Nepareizi ievadīts e-pasts un/vai parole!" FontAttributes="Bold" IsVisible="false" x:Name="Error" />
+                    <Border Padding="10" Background="#D0D9DE" Margin="0,30,0,0" Stroke="#D0D9DE" StrokeThickness="3" StrokeShape="RoundRectangle 10,10,10,10">
+                        <Button FontSize="20" Margin="0,0,0,0" Text="Log in" FontAttributes="Bold" BackgroundColor="#D0D9DE" TextColor="Black" Clicked="Login_Clicked"></Button>
+                    </Border>
+                </StackLayout>
+            </VerticalStackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+
+</ContentPage>
