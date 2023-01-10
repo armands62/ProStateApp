@@ -1,0 +1,36 @@
+# Build output
+bin/
+obj/
+
+# NuGet packages
+*.nupkg
+
+# User-specific files
+*.suo
+*.user
+
+# Visual Studio files
+*.sln
+*.csproj
+*.vbproj
+*.vcxproj
+*.vcxproj.*
+*.vcxproj.filters
+*.vcxproj.user
+*.vcxproj.bak
+*.vsix
+
+# Dotnet CLI files
+project.lock.json
+*.deps.json
+*.runtimeconfig.json
+
+# Visual Studio code
+.vscode/
+
+# Windows files
+Thumbs.db
+Desktop.ini
+
+# MacOS files
+.DS_Store
