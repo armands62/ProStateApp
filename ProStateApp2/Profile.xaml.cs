@@ -40,8 +40,8 @@ public partial class Profile : ContentPage
         GenderLabel.Text = GenderString;
     }
 
-    private void Edit_Clicked(object sender, EventArgs e)
+    private async void Edit_Clicked(object sender, EventArgs e)
     {
-
+        await Shell.Current.GoToAsync("EditProfile");
     }
 }

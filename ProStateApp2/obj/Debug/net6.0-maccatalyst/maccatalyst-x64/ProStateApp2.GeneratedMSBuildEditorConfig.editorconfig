@@ -28,6 +28,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = ProStateApp2.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
+[C:/Users/BigBox/source/repos/ProStateApp2/ProStateApp2/EditProfile.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ProStateApp2.EditProfile.xaml
+build_metadata.AdditionalFiles.TargetPath = EditProfile.xaml
+build_metadata.AdditionalFiles.RelativePath = EditProfile.xaml
+
 [C:/Users/BigBox/source/repos/ProStateApp2/ProStateApp2/Fisclees.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ProStateApp2.Fisclees.xaml
