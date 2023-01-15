@@ -61,7 +61,7 @@ public partial class MainPage : ContentPage
                     string password = reader.GetString(4);
                     if (BCrypt.Net.BCrypt.Verify(inputPassword, password))
                     {
-                        GlobalVariables.CurrentUser = new User { id = Convert.ToInt32(reader.GetString(0)), name = reader.GetString(1), surname = reader.GetString(2), email = inputEmail, password = inputPassword, social_number = reader.GetString(5), birth_date = Convert.ToDateTime(reader.GetString(6)), gender= reader.GetString(7) };
+                        GlobalVariables.CurrentUser = new User { id = Convert.ToInt32(reader.GetString("id")), name = reader.GetString("name"), surname = reader.GetString("surname"), email = inputEmail, password = inputPassword, social_number = reader.GetString("social_number"), birth_date = Convert.ToDateTime(reader.GetString("birth_date")), gender= reader.GetString("gender") };
                         Application.Current.MainPage = new AppShell();
                     }
                     else

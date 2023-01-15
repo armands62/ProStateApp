@@ -1,43 +1,75 @@
 ﻿using static ProStateApp2.App;
+using MySql.Data.MySqlClient;
 
 namespace ProStateApp2;
 
 public partial class Profile : ContentPage
 {
-	public Profile()
-	{
-		InitializeComponent();
+    public Profile()
+    {
+        InitializeComponent();
 
-		NameLabel.Text = GlobalVariables.CurrentUser.name + " " + GlobalVariables.CurrentUser.surname;
+    }
 
-		EmailLabel.Text = GlobalVariables.CurrentUser.email;
+    protected override void OnAppearing()
+    {
+        base.OnAppearing();
+        RetrieveDataFromDb();
+    }
 
-		DateTime BirthDate = GlobalVariables.CurrentUser.birth_date;
 
-		string BirthDateString = BirthDate.ToString("dd/MM/yyyy");
-
-		BirthDateLabel.Text = BirthDateString;
-
-        string Gender = GlobalVariables.CurrentUser.gender;
-		string GenderString;
-
-        if (Gender == "male")
+    private void RetrieveDataFromDb()
+    {
+        string connectionString = "server=192.168.1.198;user=armands;database=pro_state;password=qwerty;";
+        using (var connection = new MySqlConnection(connectionString))
         {
-            GenderString = "Vīrietis";
-            GenderIcon.Source = "male_user.png"; 
-        }
-        else if (Gender == "female")
-        {
-            GenderString = "Sieviete";
-            GenderIcon.Source = "female_user.png";
-        }
-        else
-        {
-            GenderString = "Nezinu";
-            GenderIcon.Source = "question_mark.png";
-        }
+            connection.Open();
+            var command = new MySqlCommand("SELECT * FROM user WHERE id = @id", connection);
+            command.Parameters.AddWithValue("@id", GlobalVariables.CurrentUser.id);
 
-        GenderLabel.Text = GenderString;
+            using (var reader = command.ExecuteReader())
+            {
+                while (reader.Read())
+                {
+                    GlobalVariables.CurrentUser.name = reader.GetString("name");
+                    GlobalVariables.CurrentUser.surname = reader.GetString("surname");
+                    GlobalVariables.CurrentUser.email = reader.GetString("email");
+                    GlobalVariables.CurrentUser.birth_date = reader.GetDateTime("birth_date");
+                    GlobalVariables.CurrentUser.gender = reader.GetString("gender");
+
+                    NameLabel.Text = GlobalVariables.CurrentUser.name + " " + GlobalVariables.CurrentUser.surname;
+
+                    EmailLabel.Text = GlobalVariables.CurrentUser.email;
+
+                    DateTime BirthDate = GlobalVariables.CurrentUser.birth_date;
+
+                    string BirthDateString = BirthDate.ToString("dd/MM/yyyy");
+
+                    BirthDateLabel.Text = BirthDateString;
+
+                    string Gender = GlobalVariables.CurrentUser.gender;
+                    string GenderString;
+
+                    if (Gender == "male")
+                    {
+                        GenderString = "Vīrietis";
+                        GenderIcon.Source = "male_user.png";
+                    }
+                    else if (Gender == "female")
+                    {
+                        GenderString = "Sieviete";
+                        GenderIcon.Source = "female_user.png";
+                    }
+                    else
+                    {
+                        GenderString = "Nezinu";
+                        GenderIcon.Source = "question_mark.png";
+                    }
+
+                    GenderLabel.Text = GenderString;
+                }
+            }
+        }
     }
 
     private async void Edit_Clicked(object sender, EventArgs e)
