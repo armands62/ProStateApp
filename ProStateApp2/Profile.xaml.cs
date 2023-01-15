@@ -38,6 +38,18 @@ public partial class Profile : ContentPage
                     GlobalVariables.CurrentUser.gender = reader.GetString("gender");
 
                     NameLabel.Text = GlobalVariables.CurrentUser.name + " " + GlobalVariables.CurrentUser.surname;
+                    if (NameLabel.Text.Length > 15)
+                    {
+                        NameLabel.FontSize = 40;
+                    }
+                    else
+                    {
+                        NameLabel.FontSize = 50;
+                    }
+                    if (NameLabel.Text.Length > 19)
+                    {
+                        NameLabel.FontSize = 30;
+                    }
 
                     EmailLabel.Text = GlobalVariables.CurrentUser.email;
 
