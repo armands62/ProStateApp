@@ -8,5 +8,6 @@ public partial class AppShell : Shell
 
 		Routing.RegisterRoute(nameof(Profile), typeof(Profile));
         Routing.RegisterRoute(nameof(EditProfile), typeof(EditProfile));
+        Routing.RegisterRoute(nameof(AddAccount), typeof(AddAccount));
     }
 }

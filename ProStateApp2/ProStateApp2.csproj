@@ -49,14 +49,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Remove="NewPage1.xaml.cs" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <MauiXaml Remove="NewPage1.xaml" />
-	</ItemGroup>
-
-	<ItemGroup>
 	  <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
 	  <PackageReference Include="Microsoft.Data.SqlClient" Version="5.0.1" />
 	  <PackageReference Include="MySqlConnector" Version="2.2.5" />
@@ -78,6 +70,9 @@
 	  <MauiXaml Update="Accounts.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="AddAccount.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="editProfile.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
@@ -88,6 +83,9 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="MoneyTransfer.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="NewPage1.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Profile.xaml">

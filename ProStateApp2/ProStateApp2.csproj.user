@@ -18,6 +18,9 @@
     <MauiXaml Update="Accounts.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="AddAccount.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="editProfile.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

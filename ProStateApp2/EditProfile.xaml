@@ -31,7 +31,7 @@
             </StackLayout>
         </StackLayout>
         <Border Padding="20" Background="#D0D9DE" Margin="20,30,20,0" Stroke="#D0D9DE" StrokeThickness="3" StrokeShape="RoundRectangle 10,10,10,10">
-            <Button FontSize="20" Margin="0,0,0,0" Text="Edit" FontAttributes="Bold" BackgroundColor="#bbc3c8" TextColor="Black" Clicked="Edit_Confirm"></Button>
+            <Button FontSize="20" Margin="0,0,0,0" Text="Edit" FontAttributes="Bold" BackgroundColor="#313334" TextColor="#d0d9de" Clicked="Edit_Confirm"></Button>
         </Border>
 
     </VerticalStackLayout>
