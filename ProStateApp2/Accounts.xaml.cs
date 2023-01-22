@@ -66,7 +66,7 @@ public partial class Accounts : ContentPage
                 FontAttributes = FontAttributes.Bold,
                 FontSize = 18,
                 Margin = new Thickness(left: 0, top: 3, right: 0, bottom: 0),
-                TextColor = Color.FromArgb("#535759")
+                TextColor = Color.FromArgb("#535759"),
             };
             Grid.SetRow(accountNumber, row);
             Grid.SetColumn(accountNumber, 0);

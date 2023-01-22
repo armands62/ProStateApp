@@ -2,11 +2,41 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ProStateApp2.MoneyTransfer"
+             BackgroundColor="#D0D9DE"
              Title="Money Transfer">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+    <ScrollView>
+        <VerticalStackLayout>
+            <StackLayout Padding="20,0,20,10" Margin="0,10,0,0" BackgroundColor="#D0D9DE">
+                <Label Text="Pārskaitāmais konts" TextColor="Black" FontSize="25" Margin="0,0,0,5" ></Label>
+                <Border Padding="5,0,0,0" Background="White" Stroke="White" StrokeThickness="1" StrokeShape="RoundRectangle 10,10,10,10">
+                    <Picker Title="Izvēlaties kontu:" TitleColor="#041014" FontAttributes="Bold" BackgroundColor="White" TextColor="Black"  x:Name="AccountsPicker" SelectedIndexChanged="AccountsPicker_SelectedIndexChanged">
+                        <Picker.Items>
+                            <!-- Add items here -->
+                        </Picker.Items>
+                    </Picker>
+                </Border>
+            </StackLayout>
+            <StackLayout BackgroundColor="#D0D9DE" Margin="0,20,0,0" Padding="20,0,20,10">
+                <Label Text="Saņēmēja konts" TextColor="Black" FontSize="25" Margin="0,0,0,5" ></Label>
+                <Border Padding="5,0,0,0" Background="White" Stroke="White" StrokeThickness="1" StrokeShape="RoundRectangle 10,10,10,10">
+                    <Entry Placeholder="Konta nosaukums" TextColor="Black" FontSize="15" x:Name="receiverAccount"></Entry>
+                </Border>
+            </StackLayout>
+            <StackLayout BackgroundColor="#D0D9DE" Margin="0,20,0,0" Padding="20,0,20,10">
+                <Label Text="Pārskaitāmā summa" TextColor="Black" FontSize="25" Margin="0,0,0,5" ></Label>
+                <Border Padding="5,0,0,0" Background="White" Stroke="White" StrokeThickness="1" StrokeShape="RoundRectangle 10,10,10,10">
+                    <Entry Placeholder="Summa (FISC)" TextColor="Black" FontSize="15" x:Name="enteredAmount"></Entry>
+                </Border>
+            </StackLayout>
+            <StackLayout BackgroundColor="#D0D9DE" Margin="0,20,0,0" Padding="20,0,20,10">
+                <Label Text="Apraksts" TextColor="Black" FontSize="25" Margin="0,0,0,5" ></Label>
+                <Border Padding="5,0,0,0" Background="White" Stroke="White" StrokeThickness="1" StrokeShape="RoundRectangle 10,10,10,10">
+                    <Entry Placeholder="Apraksts" TextColor="Black" FontSize="15" x:Name="description"></Entry>
+                </Border>
+            </StackLayout>
+            <Border Padding="15" Background="#D0D9DE" Margin="20,30,20,0" Stroke="#D0D9DE" StrokeThickness="3" StrokeShape="RoundRectangle 10,10,10,10">
+                <Button FontSize="20" Padding="20"  Margin="0,0,0,0" Text="Veikt maksājumu" FontAttributes="Bold" BackgroundColor="#313334" TextColor="#d0d9de" Clicked="Make_Transfer"></Button>
+            </Border>
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>
