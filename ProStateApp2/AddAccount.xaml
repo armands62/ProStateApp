@@ -4,10 +4,30 @@
              x:Class="ProStateApp2.AddAccount"
              BackgroundColor="#D0D9DE"
              Title="Add Account">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+    <ScrollView>
+        <StackLayout>
+            <StackLayout Padding="20,0,20,10" Margin="0,10,0,0" BackgroundColor="#D0D9DE">
+                <Label Text="Konta nosaukums" TextColor="Black" FontSize="25" Margin="0,0,0,5" ></Label>
+                <Border Padding="5,0,0,0" Background="White" Stroke="White" StrokeThickness="1" StrokeShape="RoundRectangle 10,10,10,10">
+                    <Entry Placeholder="Konta nosaukums" TextColor="Black" FontSize="15" x:Name="accountNameEntry"></Entry>
+                </Border>
+            </StackLayout>
+
+            <StackLayout Padding="20,0,20,10" Margin="0,10,0,0" BackgroundColor="#D0D9DE">
+                <Label Text="Dienas limits" TextColor="Black" FontSize="25" Margin="0,0,0,5" ></Label>
+                <Border Padding="5,0,0,0" Background="White" Stroke="White" StrokeThickness="1" StrokeShape="RoundRectangle 10,10,10,10">
+                    <Entry Placeholder="Dienas limits" TextColor="Black" FontSize="15" x:Name="dailyLimitEntry"></Entry>
+                </Border>
+            </StackLayout>
+            <StackLayout Padding="20,0,20,10" Margin="0,10,0,0" BackgroundColor="#D0D9DE">
+                <Label Text="Mēneša limits" TextColor="Black" FontSize="25" Margin="0,0,0,5" ></Label>
+                <Border Padding="5,0,0,0" Background="White" Stroke="White" StrokeThickness="1" StrokeShape="RoundRectangle 10,10,10,10">
+                    <Entry Placeholder="Mēneša limits" TextColor="Black" FontSize="15" x:Name="monthlyLimitEntry"></Entry>
+                </Border>
+            </StackLayout>
+            <Border Padding="20" Background="#D0D9DE" Margin="20,30,20,0" Stroke="#D0D9DE" StrokeThickness="3" StrokeShape="RoundRectangle 10,10,10,10">
+                <Button FontSize="20" Margin="0,0,0,0" Text="Pievienot kontu" FontAttributes="Bold" BackgroundColor="#313334" TextColor="#d0d9de" Clicked="Account_Created"></Button>
+            </Border>
+        </StackLayout>
+    </ScrollView>
 </ContentPage>
