@@ -1,4 +1,4 @@
-using MySql.Data.MySqlClient;
+﻿using MySql.Data.MySqlClient;
 using static ProStateApp2.App;
 
 namespace ProStateApp2;
@@ -22,11 +22,30 @@ public partial class AddAccount : ContentPage
 
     private void Account_Created(object sender, EventArgs e)
     {
+
         var accountNumber = GenerateAccountNumber();
         var accountName = accountNameEntry.Text;
-        var dailyLimit = decimal.Parse(dailyLimitEntry.Text);
-        var monthlyLimit = decimal.Parse(monthlyLimitEntry.Text);
+        decimal dailyLimit = 0;
+        decimal monthlyLimit = 0;
         var userId = GlobalVariables.CurrentUser.id;
+
+        if (string.IsNullOrEmpty(accountName))
+        {
+            DisplayAlert("Kļūda!", "Konta nosaukums nevar palikt tukšs!", "OK");
+            return;
+        }
+
+        if (!Decimal.TryParse(dailyLimitEntry.Text, out dailyLimit) || !Decimal.TryParse(monthlyLimitEntry.Text, out monthlyLimit))
+        {
+            DisplayAlert("Kļūda!", "Ievadiet derīgu summu!", "OK");
+            return;
+        }
+
+        if (dailyLimit <= 0 || monthlyLimit <= 0)
+        {
+            DisplayAlert("Kļūda!", "Dienas limitam un mēneša limitam jābūt lielākam par 0!", "OK");
+            return;
+        }
 
         string connectionString = "server=192.168.1.198;user=armands;database=pro_state;password=qwerty;";
         using (var connection = new MySqlConnection(connectionString))

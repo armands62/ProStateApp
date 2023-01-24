@@ -49,7 +49,7 @@ public partial class History : ContentPage
                         AccountTo = reader.GetString("To") + " " + reader.GetString("ToName")
                     });
                 }
-                TransactionsListView.ItemsSource = transactions;
+                TransactionsListView.ItemsSource = transactions.OrderByDescending(t => t.Date);
             }
         }
     }
