@@ -3,13 +3,49 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ProStateApp2.Fisclees"
              BackgroundColor="#D0D9DE"
-             Title="Fisclees">
-    <VerticalStackLayout>
-        <Label 
-            Text="Under Construction!"
-            TextColor="Black"
-            FontSize="40"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+             Title="Lietošanas instrukcija">
+    <ScrollView>
+        <VerticalStackLayout>
+            <StackLayout Margin="10,10,0,20">
+                <Label FontSize="30" FontAttributes="Italic" Margin="0,0,0,10" TextColor="Black"  Text="Ielogošanās" />
+                <Label FontSize="Body" Margin="0,0,0,5" TextColor="Black"  Text="Lai ielogotos Pro State Bank sistēmā, jāspiež uz e-pasta adreses lauka ielogošanās ekrānā un jāievada sava e-pasta adrese." />
+                <Label FontSize="Body" Margin="0,0,0,5" TextColor="Black"  Text="Pēc e-pasta adreses ievadīšanas jāspiež uz paroles lauka un jāievada sava Pro State Bank konta parole." />
+                <Label FontSize="Body" Margin="0,0,0,5" TextColor="Black"  Text="Pēc datu ievadīšanas jāspiež poga “Log In”." />
+                <Label FontSize="Body" Margin="0,0,0,5" TextColor="Black"  Text="Ja dati ievadīti pareizi, tad lietotājs tiks novadīts uz profila logu." />
+                <Label FontSize="30" FontAttributes="Italic" Margin="0,10,0,10" TextColor="Black"  Text="Profila rediģēšana" />
+                <Label FontSize="Body" Margin="0,0,0,5" TextColor="Black"  Text="Lai rediģētu profila datus, nepieciešams uzspiest uz pogas “Rediģēt profilu” profila logā." />
+                <Label FontSize="Body" Margin="0,0,0,5" TextColor="Black"  Text="Lai mainītu profila vārdu, uzvārdu vai e-pastu, tad spiest uz attiecīgā/attiecīgajiem laukiem un veikt nepieciešamās izmaiņas." />
+                <Label FontSize="Body" Margin="0,0,0,5" TextColor="Black"  Text="Pēc vēlamo izmaiņu veikšanas spiest pogu “Edit”. Lietotājs tiks novadīts uz profila logu."/>
+                <Label FontSize="30" FontAttributes="Italic" Margin="0,10,0,10" TextColor="Black"  Text="Kontu skatīšana"/>
+                <Label FontSize="Body" Margin="0,0,0,5" TextColor="Black"  Text="Lai apskatītu lietotājam piederošos kontus, rīkjoslā nepieciešams uzspiest uz pogas “Accounts”, kur būs apskatāmi gan lietotājam piederīgo kontu numuri, gan to bilances, kā arī visu kontu kopējā bilance. "/>
+                <Label FontSize="30" FontAttributes="Italic" Margin="0,10,0,10" TextColor="Black"  Text="Konta pievienošana "/>
+                <Label FontSize="Body" Margin="0,0,0,5" TextColor="Black"  Text="Lai pievienotu kontus lietotāja profilam, lietotājam rīkjoslā nepieciešams uzspiest uz pogas “Accounts” un pēc tam uz pogas “Pievienot kontu”. Tur būs nepieciešams ievadīt:  "/>
+                <Label FontSize="Body" FontAttributes="Bold"  Margin="0,0,0,5" TextColor="Black"  Text="Konta nosaukumu; "/>
+                <Label FontSize="Body" FontAttributes="Bold" Margin="0,0,0,5" TextColor="Black"  Text="Dienas limitu;"/>
+                <Label FontSize="Body" FontAttributes="Bold" Margin="0,0,0,5" TextColor="Black"  Text="Mēneša limitu;"/>
+                <Label FontSize="Body" Margin="0,0,0,5" TextColor="Black"  Text="Pēc nepieciešamo datu ievades spiest pogu “Pievienot kontu” un parādīsies logs, kas apstiprinās, ka konta pievienošana notikusi veiksmīgi. "/>
+                <Label FontSize="30" FontAttributes="Italic" Margin="0,10,0,10" TextColor="Black"  Text="Naudas pārksaitīšana "/>
+                <Label FontSize="Body" Margin="0,0,0,5" TextColor="Black"  Text="Lai veiktu pārskaitījumu starp bankas kontiem, lietotājam rīkjoslā nepieciešams uzspiest uz pogas “Money transfer”. "/>
+                <Label FontSize="Body" Margin="0,0,0,5" TextColor="Black"  Text="Pārskaitījuma veikšanai sekot šiem punktiem: "/>
+                <Label FontSize="Body" FontAttributes="Bold" Margin="0,0,0,5" TextColor="Black"  Text="Spiest uz pirmā loga, kur jāizvēlas konts, no kura pārskaitīsiet naudu, un tad izvēlnē uzspiest vēlamo kontu; "/>
+                <Label FontSize="Body" FontAttributes="Bold" Margin="0,0,0,5" TextColor="Black"  Text="Saņēmēja konta logā korekti ievadīt saņēmēja konta numuru; "/>
+                <Label FontSize="Body" FontAttributes="Bold" Margin="0,0,0,5" TextColor="Black"  Text="Pārskaitāmās summas logā ievadīt vēlamo summu FISC valūtā; "/>
+                <Label FontSize="Body" FontAttributes="Bold" Margin="0,0,0,5" TextColor="Black"  Text="Apraksta logā ievadīt maksājuma mērķi; "/>
+                <Label FontSize="Body" FontAttributes="Bold" Margin="0,0,0,5" TextColor="Black"  Text='Spiest uz pogas "Veikt maksājumu”. '/>
+                <Label FontSize="Body" Margin="0,0,0,5" TextColor="Black"  Text="Ja maksājums būs veiksmīgs, tad programma parādīs logu, kas apstiprina maksājuma veikšanu, pretējā gadījumā tiks parādīta kļūda ar ziņu, kas apraksta pieļauto kļūdu. Kļūdas novēršanai pārliecināties, ka visi logi aizpildīti, ka tie ir pareizi aizpildīti un ka sekots iepriekš minētajiem punktiem. "/>
+                <Label FontSize="Body" Margin="0,0,0,5" TextColor="Black"  Text="Pēc maksājuma veikšanas no konta atņemsies aizsūtītās naudas vērtība un saņēmēja kontam šī vērtība tiks pieskaitīta. "/>
+                <Label FontSize="30" FontAttributes="Italic" Margin="0,10,0,10" TextColor="Black"  Text="Maksājuma vēstures skatīšana "/>
+                <Label FontSize="Body" Margin="0,0,0,5" TextColor="Black"  Text="Lai skatītu maksājuma vēsturi, lietotājam nepieciešams rīkjoslā uzspiest uz pogas “History”, kas aizvedīs uz maksājumu vēstures logu. "/>
+                <Label FontSize="Body" Margin="0,0,0,5" TextColor="Black"  Text="Maksājuma vēsturē skatāmi: "/>
+                <Label FontSize="Body" FontAttributes="Bold" Margin="0,0,0,5" TextColor="Black"  Text="Veiktie maksājumi; "/>
+                <Label FontSize="Body" FontAttributes="Bold" Margin="0,0,0,5" TextColor="Black"  Text="Saņemtie maksājumi. "/>
+                <Label FontSize="Body" FontAttributes="Bold" Margin="0,0,0,5" TextColor="Black"  Text="Maksājuma vēsturē katram maksājumam ir redzami konkrētā maksājuma parametri: "/>
+                <Label FontSize="Body" FontAttributes="Bold" Margin="0,0,0,5" TextColor="Black"  Text="Sūtītāja konta numurs un nosaukums; "/>
+                <Label FontSize="Body" FontAttributes="Bold" Margin="0,0,0,5" TextColor="Black"  Text="Saņēmēja konta numurs un nosaukums; "/>
+                <Label FontSize="Body" FontAttributes="Bold" Margin="0,0,0,5" TextColor="Black"  Text="Summa; "/>
+                <Label FontSize="Body" FontAttributes="Bold" Margin="0,0,0,5" TextColor="Black"  Text="Detaļas jeb maksājuma mērķis; "/>
+                <Label FontSize="Body" FontAttributes="Bold" Margin="0,0,0,5" TextColor="Black"  Text="Laiks, kurā maksājums veikts."/>
+            </StackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

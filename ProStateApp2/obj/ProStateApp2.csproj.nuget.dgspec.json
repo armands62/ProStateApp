@@ -67,7 +67,7 @@
             },
             "Microsoft.Data.SqlClient": {
               "target": "Package",
-              "version": "[5.0.1, )"
+              "version": "[5.1.0, )"
             },
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
@@ -82,6 +82,14 @@
             "MySqlConnector": {
               "target": "Package",
               "version": "[2.2.5, )"
+            },
+            "PdfiumViewer": {
+              "target": "Package",
+              "version": "[2.13.0, )"
+            },
+            "Syncfusion.Xamarin.SfPdfViewer.Android": {
+              "target": "Package",
+              "version": "[20.4.0.53, )"
             }
           },
           "imports": [
@@ -181,7 +189,7 @@
             },
             "Microsoft.Data.SqlClient": {
               "target": "Package",
-              "version": "[5.0.1, )"
+              "version": "[5.1.0, )"
             },
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
@@ -196,6 +204,10 @@
             "MySqlConnector": {
               "target": "Package",
               "version": "[2.2.5, )"
+            },
+            "PdfiumViewer": {
+              "target": "Package",
+              "version": "[2.13.0, )"
             },
             "System.Runtime.InteropServices.NFloat.Internal": {
               "target": "Package",
@@ -220,7 +232,7 @@
               "version": "[16.1.228, 16.1.228]"
             },
             {
-              "name": "Microsoft.iOS.Runtime.iossimulator-x64",
+              "name": "Microsoft.iOS.Runtime.ios-arm64",
               "version": "[16.1.228, 16.1.228]"
             },
             {
@@ -276,7 +288,7 @@
             },
             "Microsoft.Data.SqlClient": {
               "target": "Package",
-              "version": "[5.0.1, )"
+              "version": "[5.1.0, )"
             },
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
@@ -291,6 +303,10 @@
             "MySqlConnector": {
               "target": "Package",
               "version": "[2.2.5, )"
+            },
+            "PdfiumViewer": {
+              "target": "Package",
+              "version": "[2.13.0, )"
             },
             "System.Runtime.InteropServices.NFloat.Internal": {
               "target": "Package",
@@ -372,7 +388,7 @@
             },
             "Microsoft.Data.SqlClient": {
               "target": "Package",
-              "version": "[5.0.1, )"
+              "version": "[5.1.0, )"
             },
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
@@ -393,6 +409,10 @@
             "MySqlConnector": {
               "target": "Package",
               "version": "[2.2.5, )"
+            },
+            "PdfiumViewer": {
+              "target": "Package",
+              "version": "[2.13.0, )"
             }
           },
           "imports": [
@@ -481,7 +501,7 @@
         "android-x86": {
           "#import": []
         },
-        "iossimulator-x64": {
+        "ios-arm64": {
           "#import": []
         },
         "maccatalyst-x64": {
