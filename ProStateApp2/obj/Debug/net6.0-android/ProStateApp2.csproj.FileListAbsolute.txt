@@ -1048,11 +1048,6 @@ C:\Users\BigBox\source\repos\ProStateApp2\ProStateApp2\obj\Debug\net6.0-android\
 C:\Users\BigBox\source\repos\ProStateApp2\ProStateApp2\obj\Debug\net6.0-android\android\assets\System.Private.CoreLib.dll
 C:\Users\BigBox\source\repos\ProStateApp2\ProStateApp2\obj\Debug\net6.0-android\android\assets\System.Private.Uri.dll
 C:\Users\BigBox\source\repos\ProStateApp2\ProStateApp2\obj\Debug\net6.0-android\android\assets\System.Xml.dll
-C:\Users\BigBox\source\repos\ProStateApp2\ProStateApp2\obj\Debug\net6.0-android\lp\158\jl\files.cache
-C:\Users\BigBox\source\repos\ProStateApp2\ProStateApp2\obj\Debug\net6.0-android\lp\159\jl\files.cache
-C:\Users\BigBox\source\repos\ProStateApp2\ProStateApp2\obj\Debug\net6.0-android\lp\160\jl\files.cache
-C:\Users\BigBox\source\repos\ProStateApp2\ProStateApp2\obj\Debug\net6.0-android\lp\161\jl\files.cache
-C:\Users\BigBox\source\repos\ProStateApp2\ProStateApp2\obj\Debug\net6.0-android\lp\162\jl\files.cache
 C:\Users\BigBox\source\repos\ProStateApp2\ProStateApp2\obj\Debug\net6.0-android\android\assets\Syncfusion.Compression.Portable.dll
 C:\Users\BigBox\source\repos\ProStateApp2\ProStateApp2\obj\Debug\net6.0-android\android\assets\Syncfusion.Licensing.dll
 C:\Users\BigBox\source\repos\ProStateApp2\ProStateApp2\obj\Debug\net6.0-android\android\assets\Syncfusion.Pdf.Portable.dll

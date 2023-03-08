@@ -34,15 +34,6 @@ public class MonoPackageManager_Resources {
 		"Microsoft.SqlServer.Server.dll",
 		"Microsoft.Win32.SystemEvents.dll",
 		"MySqlConnector.dll",
-		"PdfiumViewer.dll",
-		"Syncfusion.Licensing.dll",
-		"Syncfusion.Compression.Portable.dll",
-		"Syncfusion.Pdf.Portable.dll",
-		"Syncfusion.SfBusyIndicator.Android.dll",
-		"Syncfusion.SfPdfViewer.Android.dll",
-		"Syncfusion.SfProgressBar.Android.dll",
-		"Syncfusion.SfRangeSlider.Android.dll",
-		"Syncfusion.SfTabView.Android.dll",
 		"System.Configuration.ConfigurationManager.dll",
 		"System.Drawing.Common.dll",
 		"System.IdentityModel.Tokens.Jwt.dll",
@@ -132,7 +123,6 @@ public class MonoPackageManager_Resources {
 		"Xamarin.Kotlin.StdLib.Jdk8.dll",
 		"Xamarin.KotlinX.Coroutines.Android.dll",
 		"Xamarin.KotlinX.Coroutines.Core.Jvm.dll",
-		"PdfiumViewer.resources.dll",
 		"MySql.Data.dll",
 	};
 	public static String[] Dependencies = new String[]{

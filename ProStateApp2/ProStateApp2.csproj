@@ -52,7 +52,6 @@
 	  <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
 	  <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.0" />
 	  <PackageReference Include="MySqlConnector" Version="2.2.5" />
-	  <PackageReference Include="PdfiumViewer" Version="2.13.0" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -92,16 +91,6 @@
 	  <MauiXaml Update="Profile.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	</ItemGroup>
-
-	<ItemGroup>
-	  <Folder Include="Resources\PDF\" />
-	</ItemGroup>
-
-	<ItemGroup Condition="'$(TargetFramework)' == 'net6.0-android'">
-	  <PackageReference Include="Syncfusion.Xamarin.SfPdfViewer.Android">
-	    <Version>20.4.0.53</Version>
-	  </PackageReference>
 	</ItemGroup>
 
 </Project>

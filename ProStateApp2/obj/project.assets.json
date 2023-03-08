@@ -512,148 +512,6 @@
           }
         }
       },
-      "PdfiumViewer/2.13.0": {
-        "type": "package",
-        "compile": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "resource": {
-          "lib/net20/nl/PdfiumViewer.resources.dll": {
-            "locale": "nl"
-          }
-        }
-      },
-      "Syncfusion.Licensing/20.4.0.53": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/Syncfusion.Licensing.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/Syncfusion.Licensing.dll": {}
-        }
-      },
-      "Syncfusion.Xamarin.Compression/20.4.0.53": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Syncfusion.Compression.Portable.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Syncfusion.Compression.Portable.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Syncfusion.Xamarin.Pdf/20.4.0.53": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Licensing": "20.4.0.53",
-          "Syncfusion.Xamarin.Compression": "20.4.0.53"
-        },
-        "compile": {
-          "lib/netstandard2.0/Syncfusion.Pdf.Portable.dll": {
-            "related": ".XML"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Syncfusion.Pdf.Portable.dll": {
-            "related": ".XML"
-          }
-        }
-      },
-      "Syncfusion.Xamarin.SfBusyIndicator.Android/20.4.0.53": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Licensing": "20.4.0.53"
-        },
-        "compile": {
-          "lib/MonoAndroid10.0/Syncfusion.SfBusyIndicator.Android.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/MonoAndroid10.0/Syncfusion.SfBusyIndicator.Android.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Syncfusion.Xamarin.SfPdfViewer.Android/20.4.0.53": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Licensing": "20.4.0.53",
-          "Syncfusion.Xamarin.Pdf": "20.4.0.53",
-          "Syncfusion.Xamarin.SfBusyIndicator.Android": "20.4.0.53",
-          "Syncfusion.Xamarin.SfProgressBar.Android": "20.4.0.53",
-          "Syncfusion.Xamarin.SfRangeSlider.Android": "20.4.0.53",
-          "Syncfusion.Xamarin.SfTabView.Android": "20.4.0.53"
-        },
-        "compile": {
-          "lib/MonoAndroid10.0/Syncfusion.SfPdfViewer.Android.dll": {
-            "related": ".XML"
-          }
-        },
-        "runtime": {
-          "lib/MonoAndroid10.0/Syncfusion.SfPdfViewer.Android.dll": {
-            "related": ".XML"
-          }
-        }
-      },
-      "Syncfusion.Xamarin.SfProgressBar.Android/20.4.0.53": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Licensing": "20.4.0.53"
-        },
-        "compile": {
-          "lib/MonoAndroid10.0/Syncfusion.SfProgressBar.Android.dll": {
-            "related": ".XML"
-          }
-        },
-        "runtime": {
-          "lib/MonoAndroid10.0/Syncfusion.SfProgressBar.Android.dll": {
-            "related": ".XML"
-          }
-        }
-      },
-      "Syncfusion.Xamarin.SfRangeSlider.Android/20.4.0.53": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Licensing": "20.4.0.53"
-        },
-        "compile": {
-          "lib/MonoAndroid10.0/Syncfusion.SfRangeSlider.Android.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/MonoAndroid10.0/Syncfusion.SfRangeSlider.Android.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Syncfusion.Xamarin.SfTabView.Android/20.4.0.53": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Licensing": "20.4.0.53"
-        },
-        "compile": {
-          "lib/MonoAndroid10.0/Syncfusion.SfTabView.Android.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/MonoAndroid10.0/Syncfusion.SfTabView.Android.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "System.Buffers/4.5.1": {
         "type": "package",
         "compile": {
@@ -3250,148 +3108,6 @@
           }
         }
       },
-      "PdfiumViewer/2.13.0": {
-        "type": "package",
-        "compile": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "resource": {
-          "lib/net20/nl/PdfiumViewer.resources.dll": {
-            "locale": "nl"
-          }
-        }
-      },
-      "Syncfusion.Licensing/20.4.0.53": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/Syncfusion.Licensing.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/Syncfusion.Licensing.dll": {}
-        }
-      },
-      "Syncfusion.Xamarin.Compression/20.4.0.53": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Syncfusion.Compression.Portable.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Syncfusion.Compression.Portable.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Syncfusion.Xamarin.Pdf/20.4.0.53": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Licensing": "20.4.0.53",
-          "Syncfusion.Xamarin.Compression": "20.4.0.53"
-        },
-        "compile": {
-          "lib/netstandard2.0/Syncfusion.Pdf.Portable.dll": {
-            "related": ".XML"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Syncfusion.Pdf.Portable.dll": {
-            "related": ".XML"
-          }
-        }
-      },
-      "Syncfusion.Xamarin.SfBusyIndicator.Android/20.4.0.53": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Licensing": "20.4.0.53"
-        },
-        "compile": {
-          "lib/MonoAndroid10.0/Syncfusion.SfBusyIndicator.Android.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/MonoAndroid10.0/Syncfusion.SfBusyIndicator.Android.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Syncfusion.Xamarin.SfPdfViewer.Android/20.4.0.53": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Licensing": "20.4.0.53",
-          "Syncfusion.Xamarin.Pdf": "20.4.0.53",
-          "Syncfusion.Xamarin.SfBusyIndicator.Android": "20.4.0.53",
-          "Syncfusion.Xamarin.SfProgressBar.Android": "20.4.0.53",
-          "Syncfusion.Xamarin.SfRangeSlider.Android": "20.4.0.53",
-          "Syncfusion.Xamarin.SfTabView.Android": "20.4.0.53"
-        },
-        "compile": {
-          "lib/MonoAndroid10.0/Syncfusion.SfPdfViewer.Android.dll": {
-            "related": ".XML"
-          }
-        },
-        "runtime": {
-          "lib/MonoAndroid10.0/Syncfusion.SfPdfViewer.Android.dll": {
-            "related": ".XML"
-          }
-        }
-      },
-      "Syncfusion.Xamarin.SfProgressBar.Android/20.4.0.53": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Licensing": "20.4.0.53"
-        },
-        "compile": {
-          "lib/MonoAndroid10.0/Syncfusion.SfProgressBar.Android.dll": {
-            "related": ".XML"
-          }
-        },
-        "runtime": {
-          "lib/MonoAndroid10.0/Syncfusion.SfProgressBar.Android.dll": {
-            "related": ".XML"
-          }
-        }
-      },
-      "Syncfusion.Xamarin.SfRangeSlider.Android/20.4.0.53": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Licensing": "20.4.0.53"
-        },
-        "compile": {
-          "lib/MonoAndroid10.0/Syncfusion.SfRangeSlider.Android.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/MonoAndroid10.0/Syncfusion.SfRangeSlider.Android.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Syncfusion.Xamarin.SfTabView.Android/20.4.0.53": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Licensing": "20.4.0.53"
-        },
-        "compile": {
-          "lib/MonoAndroid10.0/Syncfusion.SfTabView.Android.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/MonoAndroid10.0/Syncfusion.SfTabView.Android.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "System.Buffers/4.5.1": {
         "type": "package",
         "compile": {
@@ -5912,148 +5628,6 @@
         },
         "runtime": {
           "lib/net6.0/MySqlConnector.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "PdfiumViewer/2.13.0": {
-        "type": "package",
-        "compile": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "resource": {
-          "lib/net20/nl/PdfiumViewer.resources.dll": {
-            "locale": "nl"
-          }
-        }
-      },
-      "Syncfusion.Licensing/20.4.0.53": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/Syncfusion.Licensing.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/Syncfusion.Licensing.dll": {}
-        }
-      },
-      "Syncfusion.Xamarin.Compression/20.4.0.53": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Syncfusion.Compression.Portable.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Syncfusion.Compression.Portable.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Syncfusion.Xamarin.Pdf/20.4.0.53": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Licensing": "20.4.0.53",
-          "Syncfusion.Xamarin.Compression": "20.4.0.53"
-        },
-        "compile": {
-          "lib/netstandard2.0/Syncfusion.Pdf.Portable.dll": {
-            "related": ".XML"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Syncfusion.Pdf.Portable.dll": {
-            "related": ".XML"
-          }
-        }
-      },
-      "Syncfusion.Xamarin.SfBusyIndicator.Android/20.4.0.53": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Licensing": "20.4.0.53"
-        },
-        "compile": {
-          "lib/MonoAndroid10.0/Syncfusion.SfBusyIndicator.Android.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/MonoAndroid10.0/Syncfusion.SfBusyIndicator.Android.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Syncfusion.Xamarin.SfPdfViewer.Android/20.4.0.53": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Licensing": "20.4.0.53",
-          "Syncfusion.Xamarin.Pdf": "20.4.0.53",
-          "Syncfusion.Xamarin.SfBusyIndicator.Android": "20.4.0.53",
-          "Syncfusion.Xamarin.SfProgressBar.Android": "20.4.0.53",
-          "Syncfusion.Xamarin.SfRangeSlider.Android": "20.4.0.53",
-          "Syncfusion.Xamarin.SfTabView.Android": "20.4.0.53"
-        },
-        "compile": {
-          "lib/MonoAndroid10.0/Syncfusion.SfPdfViewer.Android.dll": {
-            "related": ".XML"
-          }
-        },
-        "runtime": {
-          "lib/MonoAndroid10.0/Syncfusion.SfPdfViewer.Android.dll": {
-            "related": ".XML"
-          }
-        }
-      },
-      "Syncfusion.Xamarin.SfProgressBar.Android/20.4.0.53": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Licensing": "20.4.0.53"
-        },
-        "compile": {
-          "lib/MonoAndroid10.0/Syncfusion.SfProgressBar.Android.dll": {
-            "related": ".XML"
-          }
-        },
-        "runtime": {
-          "lib/MonoAndroid10.0/Syncfusion.SfProgressBar.Android.dll": {
-            "related": ".XML"
-          }
-        }
-      },
-      "Syncfusion.Xamarin.SfRangeSlider.Android/20.4.0.53": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Licensing": "20.4.0.53"
-        },
-        "compile": {
-          "lib/MonoAndroid10.0/Syncfusion.SfRangeSlider.Android.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/MonoAndroid10.0/Syncfusion.SfRangeSlider.Android.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Syncfusion.Xamarin.SfTabView.Android/20.4.0.53": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Licensing": "20.4.0.53"
-        },
-        "compile": {
-          "lib/MonoAndroid10.0/Syncfusion.SfTabView.Android.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/MonoAndroid10.0/Syncfusion.SfTabView.Android.dll": {
             "related": ".xml"
           }
         }
@@ -8582,148 +8156,6 @@
           }
         }
       },
-      "PdfiumViewer/2.13.0": {
-        "type": "package",
-        "compile": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "resource": {
-          "lib/net20/nl/PdfiumViewer.resources.dll": {
-            "locale": "nl"
-          }
-        }
-      },
-      "Syncfusion.Licensing/20.4.0.53": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/Syncfusion.Licensing.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/Syncfusion.Licensing.dll": {}
-        }
-      },
-      "Syncfusion.Xamarin.Compression/20.4.0.53": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Syncfusion.Compression.Portable.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Syncfusion.Compression.Portable.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Syncfusion.Xamarin.Pdf/20.4.0.53": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Licensing": "20.4.0.53",
-          "Syncfusion.Xamarin.Compression": "20.4.0.53"
-        },
-        "compile": {
-          "lib/netstandard2.0/Syncfusion.Pdf.Portable.dll": {
-            "related": ".XML"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Syncfusion.Pdf.Portable.dll": {
-            "related": ".XML"
-          }
-        }
-      },
-      "Syncfusion.Xamarin.SfBusyIndicator.Android/20.4.0.53": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Licensing": "20.4.0.53"
-        },
-        "compile": {
-          "lib/MonoAndroid10.0/Syncfusion.SfBusyIndicator.Android.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/MonoAndroid10.0/Syncfusion.SfBusyIndicator.Android.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Syncfusion.Xamarin.SfPdfViewer.Android/20.4.0.53": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Licensing": "20.4.0.53",
-          "Syncfusion.Xamarin.Pdf": "20.4.0.53",
-          "Syncfusion.Xamarin.SfBusyIndicator.Android": "20.4.0.53",
-          "Syncfusion.Xamarin.SfProgressBar.Android": "20.4.0.53",
-          "Syncfusion.Xamarin.SfRangeSlider.Android": "20.4.0.53",
-          "Syncfusion.Xamarin.SfTabView.Android": "20.4.0.53"
-        },
-        "compile": {
-          "lib/MonoAndroid10.0/Syncfusion.SfPdfViewer.Android.dll": {
-            "related": ".XML"
-          }
-        },
-        "runtime": {
-          "lib/MonoAndroid10.0/Syncfusion.SfPdfViewer.Android.dll": {
-            "related": ".XML"
-          }
-        }
-      },
-      "Syncfusion.Xamarin.SfProgressBar.Android/20.4.0.53": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Licensing": "20.4.0.53"
-        },
-        "compile": {
-          "lib/MonoAndroid10.0/Syncfusion.SfProgressBar.Android.dll": {
-            "related": ".XML"
-          }
-        },
-        "runtime": {
-          "lib/MonoAndroid10.0/Syncfusion.SfProgressBar.Android.dll": {
-            "related": ".XML"
-          }
-        }
-      },
-      "Syncfusion.Xamarin.SfRangeSlider.Android/20.4.0.53": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Licensing": "20.4.0.53"
-        },
-        "compile": {
-          "lib/MonoAndroid10.0/Syncfusion.SfRangeSlider.Android.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/MonoAndroid10.0/Syncfusion.SfRangeSlider.Android.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Syncfusion.Xamarin.SfTabView.Android/20.4.0.53": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Licensing": "20.4.0.53"
-        },
-        "compile": {
-          "lib/MonoAndroid10.0/Syncfusion.SfTabView.Android.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/MonoAndroid10.0/Syncfusion.SfTabView.Android.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "System.Buffers/4.5.1": {
         "type": "package",
         "compile": {
@@ -11244,148 +10676,6 @@
         },
         "runtime": {
           "lib/net6.0/MySqlConnector.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "PdfiumViewer/2.13.0": {
-        "type": "package",
-        "compile": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "resource": {
-          "lib/net20/nl/PdfiumViewer.resources.dll": {
-            "locale": "nl"
-          }
-        }
-      },
-      "Syncfusion.Licensing/20.4.0.53": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/Syncfusion.Licensing.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/Syncfusion.Licensing.dll": {}
-        }
-      },
-      "Syncfusion.Xamarin.Compression/20.4.0.53": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Syncfusion.Compression.Portable.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Syncfusion.Compression.Portable.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Syncfusion.Xamarin.Pdf/20.4.0.53": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Licensing": "20.4.0.53",
-          "Syncfusion.Xamarin.Compression": "20.4.0.53"
-        },
-        "compile": {
-          "lib/netstandard2.0/Syncfusion.Pdf.Portable.dll": {
-            "related": ".XML"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Syncfusion.Pdf.Portable.dll": {
-            "related": ".XML"
-          }
-        }
-      },
-      "Syncfusion.Xamarin.SfBusyIndicator.Android/20.4.0.53": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Licensing": "20.4.0.53"
-        },
-        "compile": {
-          "lib/MonoAndroid10.0/Syncfusion.SfBusyIndicator.Android.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/MonoAndroid10.0/Syncfusion.SfBusyIndicator.Android.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Syncfusion.Xamarin.SfPdfViewer.Android/20.4.0.53": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Licensing": "20.4.0.53",
-          "Syncfusion.Xamarin.Pdf": "20.4.0.53",
-          "Syncfusion.Xamarin.SfBusyIndicator.Android": "20.4.0.53",
-          "Syncfusion.Xamarin.SfProgressBar.Android": "20.4.0.53",
-          "Syncfusion.Xamarin.SfRangeSlider.Android": "20.4.0.53",
-          "Syncfusion.Xamarin.SfTabView.Android": "20.4.0.53"
-        },
-        "compile": {
-          "lib/MonoAndroid10.0/Syncfusion.SfPdfViewer.Android.dll": {
-            "related": ".XML"
-          }
-        },
-        "runtime": {
-          "lib/MonoAndroid10.0/Syncfusion.SfPdfViewer.Android.dll": {
-            "related": ".XML"
-          }
-        }
-      },
-      "Syncfusion.Xamarin.SfProgressBar.Android/20.4.0.53": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Licensing": "20.4.0.53"
-        },
-        "compile": {
-          "lib/MonoAndroid10.0/Syncfusion.SfProgressBar.Android.dll": {
-            "related": ".XML"
-          }
-        },
-        "runtime": {
-          "lib/MonoAndroid10.0/Syncfusion.SfProgressBar.Android.dll": {
-            "related": ".XML"
-          }
-        }
-      },
-      "Syncfusion.Xamarin.SfRangeSlider.Android/20.4.0.53": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Licensing": "20.4.0.53"
-        },
-        "compile": {
-          "lib/MonoAndroid10.0/Syncfusion.SfRangeSlider.Android.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/MonoAndroid10.0/Syncfusion.SfRangeSlider.Android.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Syncfusion.Xamarin.SfTabView.Android/20.4.0.53": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Licensing": "20.4.0.53"
-        },
-        "compile": {
-          "lib/MonoAndroid10.0/Syncfusion.SfTabView.Android.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/MonoAndroid10.0/Syncfusion.SfTabView.Android.dll": {
             "related": ".xml"
           }
         }
@@ -13914,148 +13204,6 @@
           }
         }
       },
-      "PdfiumViewer/2.13.0": {
-        "type": "package",
-        "compile": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "resource": {
-          "lib/net20/nl/PdfiumViewer.resources.dll": {
-            "locale": "nl"
-          }
-        }
-      },
-      "Syncfusion.Licensing/20.4.0.53": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/Syncfusion.Licensing.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/Syncfusion.Licensing.dll": {}
-        }
-      },
-      "Syncfusion.Xamarin.Compression/20.4.0.53": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Syncfusion.Compression.Portable.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Syncfusion.Compression.Portable.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Syncfusion.Xamarin.Pdf/20.4.0.53": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Licensing": "20.4.0.53",
-          "Syncfusion.Xamarin.Compression": "20.4.0.53"
-        },
-        "compile": {
-          "lib/netstandard2.0/Syncfusion.Pdf.Portable.dll": {
-            "related": ".XML"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Syncfusion.Pdf.Portable.dll": {
-            "related": ".XML"
-          }
-        }
-      },
-      "Syncfusion.Xamarin.SfBusyIndicator.Android/20.4.0.53": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Licensing": "20.4.0.53"
-        },
-        "compile": {
-          "lib/MonoAndroid10.0/Syncfusion.SfBusyIndicator.Android.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/MonoAndroid10.0/Syncfusion.SfBusyIndicator.Android.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Syncfusion.Xamarin.SfPdfViewer.Android/20.4.0.53": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Licensing": "20.4.0.53",
-          "Syncfusion.Xamarin.Pdf": "20.4.0.53",
-          "Syncfusion.Xamarin.SfBusyIndicator.Android": "20.4.0.53",
-          "Syncfusion.Xamarin.SfProgressBar.Android": "20.4.0.53",
-          "Syncfusion.Xamarin.SfRangeSlider.Android": "20.4.0.53",
-          "Syncfusion.Xamarin.SfTabView.Android": "20.4.0.53"
-        },
-        "compile": {
-          "lib/MonoAndroid10.0/Syncfusion.SfPdfViewer.Android.dll": {
-            "related": ".XML"
-          }
-        },
-        "runtime": {
-          "lib/MonoAndroid10.0/Syncfusion.SfPdfViewer.Android.dll": {
-            "related": ".XML"
-          }
-        }
-      },
-      "Syncfusion.Xamarin.SfProgressBar.Android/20.4.0.53": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Licensing": "20.4.0.53"
-        },
-        "compile": {
-          "lib/MonoAndroid10.0/Syncfusion.SfProgressBar.Android.dll": {
-            "related": ".XML"
-          }
-        },
-        "runtime": {
-          "lib/MonoAndroid10.0/Syncfusion.SfProgressBar.Android.dll": {
-            "related": ".XML"
-          }
-        }
-      },
-      "Syncfusion.Xamarin.SfRangeSlider.Android/20.4.0.53": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Licensing": "20.4.0.53"
-        },
-        "compile": {
-          "lib/MonoAndroid10.0/Syncfusion.SfRangeSlider.Android.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/MonoAndroid10.0/Syncfusion.SfRangeSlider.Android.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Syncfusion.Xamarin.SfTabView.Android/20.4.0.53": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Licensing": "20.4.0.53"
-        },
-        "compile": {
-          "lib/MonoAndroid10.0/Syncfusion.SfTabView.Android.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/MonoAndroid10.0/Syncfusion.SfTabView.Android.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "System.Buffers/4.5.1": {
         "type": "package",
         "compile": {
@@ -16576,148 +15724,6 @@
         },
         "runtime": {
           "lib/net6.0/MySqlConnector.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "PdfiumViewer/2.13.0": {
-        "type": "package",
-        "compile": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "resource": {
-          "lib/net20/nl/PdfiumViewer.resources.dll": {
-            "locale": "nl"
-          }
-        }
-      },
-      "Syncfusion.Licensing/20.4.0.53": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/Syncfusion.Licensing.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/Syncfusion.Licensing.dll": {}
-        }
-      },
-      "Syncfusion.Xamarin.Compression/20.4.0.53": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Syncfusion.Compression.Portable.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Syncfusion.Compression.Portable.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Syncfusion.Xamarin.Pdf/20.4.0.53": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Licensing": "20.4.0.53",
-          "Syncfusion.Xamarin.Compression": "20.4.0.53"
-        },
-        "compile": {
-          "lib/netstandard2.0/Syncfusion.Pdf.Portable.dll": {
-            "related": ".XML"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Syncfusion.Pdf.Portable.dll": {
-            "related": ".XML"
-          }
-        }
-      },
-      "Syncfusion.Xamarin.SfBusyIndicator.Android/20.4.0.53": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Licensing": "20.4.0.53"
-        },
-        "compile": {
-          "lib/MonoAndroid10.0/Syncfusion.SfBusyIndicator.Android.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/MonoAndroid10.0/Syncfusion.SfBusyIndicator.Android.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Syncfusion.Xamarin.SfPdfViewer.Android/20.4.0.53": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Licensing": "20.4.0.53",
-          "Syncfusion.Xamarin.Pdf": "20.4.0.53",
-          "Syncfusion.Xamarin.SfBusyIndicator.Android": "20.4.0.53",
-          "Syncfusion.Xamarin.SfProgressBar.Android": "20.4.0.53",
-          "Syncfusion.Xamarin.SfRangeSlider.Android": "20.4.0.53",
-          "Syncfusion.Xamarin.SfTabView.Android": "20.4.0.53"
-        },
-        "compile": {
-          "lib/MonoAndroid10.0/Syncfusion.SfPdfViewer.Android.dll": {
-            "related": ".XML"
-          }
-        },
-        "runtime": {
-          "lib/MonoAndroid10.0/Syncfusion.SfPdfViewer.Android.dll": {
-            "related": ".XML"
-          }
-        }
-      },
-      "Syncfusion.Xamarin.SfProgressBar.Android/20.4.0.53": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Licensing": "20.4.0.53"
-        },
-        "compile": {
-          "lib/MonoAndroid10.0/Syncfusion.SfProgressBar.Android.dll": {
-            "related": ".XML"
-          }
-        },
-        "runtime": {
-          "lib/MonoAndroid10.0/Syncfusion.SfProgressBar.Android.dll": {
-            "related": ".XML"
-          }
-        }
-      },
-      "Syncfusion.Xamarin.SfRangeSlider.Android/20.4.0.53": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Licensing": "20.4.0.53"
-        },
-        "compile": {
-          "lib/MonoAndroid10.0/Syncfusion.SfRangeSlider.Android.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/MonoAndroid10.0/Syncfusion.SfRangeSlider.Android.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Syncfusion.Xamarin.SfTabView.Android/20.4.0.53": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Licensing": "20.4.0.53"
-        },
-        "compile": {
-          "lib/MonoAndroid10.0/Syncfusion.SfTabView.Android.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/MonoAndroid10.0/Syncfusion.SfTabView.Android.dll": {
             "related": ".xml"
           }
         }
@@ -19245,148 +18251,6 @@
         },
         "runtime": {
           "lib/net6.0/MySqlConnector.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "PdfiumViewer/2.13.0": {
-        "type": "package",
-        "compile": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "resource": {
-          "lib/net20/nl/PdfiumViewer.resources.dll": {
-            "locale": "nl"
-          }
-        }
-      },
-      "Syncfusion.Licensing/20.4.0.53": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/Syncfusion.Licensing.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/Syncfusion.Licensing.dll": {}
-        }
-      },
-      "Syncfusion.Xamarin.Compression/20.4.0.53": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Syncfusion.Compression.Portable.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Syncfusion.Compression.Portable.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Syncfusion.Xamarin.Pdf/20.4.0.53": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Licensing": "20.4.0.53",
-          "Syncfusion.Xamarin.Compression": "20.4.0.53"
-        },
-        "compile": {
-          "lib/netstandard2.0/Syncfusion.Pdf.Portable.dll": {
-            "related": ".XML"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Syncfusion.Pdf.Portable.dll": {
-            "related": ".XML"
-          }
-        }
-      },
-      "Syncfusion.Xamarin.SfBusyIndicator.Android/20.4.0.53": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Licensing": "20.4.0.53"
-        },
-        "compile": {
-          "lib/MonoAndroid10.0/Syncfusion.SfBusyIndicator.Android.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/MonoAndroid10.0/Syncfusion.SfBusyIndicator.Android.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Syncfusion.Xamarin.SfPdfViewer.Android/20.4.0.53": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Licensing": "20.4.0.53",
-          "Syncfusion.Xamarin.Pdf": "20.4.0.53",
-          "Syncfusion.Xamarin.SfBusyIndicator.Android": "20.4.0.53",
-          "Syncfusion.Xamarin.SfProgressBar.Android": "20.4.0.53",
-          "Syncfusion.Xamarin.SfRangeSlider.Android": "20.4.0.53",
-          "Syncfusion.Xamarin.SfTabView.Android": "20.4.0.53"
-        },
-        "compile": {
-          "lib/MonoAndroid10.0/Syncfusion.SfPdfViewer.Android.dll": {
-            "related": ".XML"
-          }
-        },
-        "runtime": {
-          "lib/MonoAndroid10.0/Syncfusion.SfPdfViewer.Android.dll": {
-            "related": ".XML"
-          }
-        }
-      },
-      "Syncfusion.Xamarin.SfProgressBar.Android/20.4.0.53": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Licensing": "20.4.0.53"
-        },
-        "compile": {
-          "lib/MonoAndroid10.0/Syncfusion.SfProgressBar.Android.dll": {
-            "related": ".XML"
-          }
-        },
-        "runtime": {
-          "lib/MonoAndroid10.0/Syncfusion.SfProgressBar.Android.dll": {
-            "related": ".XML"
-          }
-        }
-      },
-      "Syncfusion.Xamarin.SfRangeSlider.Android/20.4.0.53": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Licensing": "20.4.0.53"
-        },
-        "compile": {
-          "lib/MonoAndroid10.0/Syncfusion.SfRangeSlider.Android.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/MonoAndroid10.0/Syncfusion.SfRangeSlider.Android.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Syncfusion.Xamarin.SfTabView.Android/20.4.0.53": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Licensing": "20.4.0.53"
-        },
-        "compile": {
-          "lib/MonoAndroid10.0/Syncfusion.SfTabView.Android.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/MonoAndroid10.0/Syncfusion.SfTabView.Android.dll": {
             "related": ".xml"
           }
         }
@@ -21948,24 +20812,6 @@
           }
         }
       },
-      "PdfiumViewer/2.13.0": {
-        "type": "package",
-        "compile": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "resource": {
-          "lib/net20/nl/PdfiumViewer.resources.dll": {
-            "locale": "nl"
-          }
-        }
-      },
       "System.Configuration.ConfigurationManager/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -23033,24 +21879,6 @@
         "runtime": {
           "lib/net6.0/MySqlConnector.dll": {
             "related": ".xml"
-          }
-        }
-      },
-      "PdfiumViewer/2.13.0": {
-        "type": "package",
-        "compile": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "resource": {
-          "lib/net20/nl/PdfiumViewer.resources.dll": {
-            "locale": "nl"
           }
         }
       },
@@ -24207,24 +23035,6 @@
           }
         }
       },
-      "PdfiumViewer/2.13.0": {
-        "type": "package",
-        "compile": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "resource": {
-          "lib/net20/nl/PdfiumViewer.resources.dll": {
-            "locale": "nl"
-          }
-        }
-      },
       "runtime.any.System.Globalization/4.3.0": {
         "type": "package",
         "compile": {
@@ -25375,24 +24185,6 @@
         "runtime": {
           "lib/net6.0/MySqlConnector.dll": {
             "related": ".xml"
-          }
-        }
-      },
-      "PdfiumViewer/2.13.0": {
-        "type": "package",
-        "compile": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "resource": {
-          "lib/net20/nl/PdfiumViewer.resources.dll": {
-            "locale": "nl"
           }
         }
       },
@@ -26549,24 +25341,6 @@
           }
         }
       },
-      "PdfiumViewer/2.13.0": {
-        "type": "package",
-        "compile": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "resource": {
-          "lib/net20/nl/PdfiumViewer.resources.dll": {
-            "locale": "nl"
-          }
-        }
-      },
       "runtime.any.System.Globalization/4.3.0": {
         "type": "package",
         "compile": {
@@ -27717,24 +26491,6 @@
         "runtime": {
           "lib/net6.0/MySqlConnector.dll": {
             "related": ".xml"
-          }
-        }
-      },
-      "PdfiumViewer/2.13.0": {
-        "type": "package",
-        "compile": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "resource": {
-          "lib/net20/nl/PdfiumViewer.resources.dll": {
-            "locale": "nl"
           }
         }
       },
@@ -28891,24 +27647,6 @@
           }
         }
       },
-      "PdfiumViewer/2.13.0": {
-        "type": "package",
-        "compile": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "resource": {
-          "lib/net20/nl/PdfiumViewer.resources.dll": {
-            "locale": "nl"
-          }
-        }
-      },
       "runtime.any.System.Globalization/4.3.0": {
         "type": "package",
         "compile": {
@@ -30062,24 +28800,6 @@
         "runtime": {
           "lib/net6.0/MySqlConnector.dll": {
             "related": ".xml"
-          }
-        }
-      },
-      "PdfiumViewer/2.13.0": {
-        "type": "package",
-        "compile": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "resource": {
-          "lib/net20/nl/PdfiumViewer.resources.dll": {
-            "locale": "nl"
           }
         }
       },
@@ -31249,24 +29969,6 @@
           }
         }
       },
-      "PdfiumViewer/2.13.0": {
-        "type": "package",
-        "compile": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "resource": {
-          "lib/net20/nl/PdfiumViewer.resources.dll": {
-            "locale": "nl"
-          }
-        }
-      },
       "System.Configuration.ConfigurationManager/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -32150,24 +30852,6 @@
           }
         }
       },
-      "PdfiumViewer/2.13.0": {
-        "type": "package",
-        "compile": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "resource": {
-          "lib/net20/nl/PdfiumViewer.resources.dll": {
-            "locale": "nl"
-          }
-        }
-      },
       "runtime.any.System.Runtime/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -33045,24 +31729,6 @@
         "runtime": {
           "lib/net6.0/MySqlConnector.dll": {
             "related": ".xml"
-          }
-        }
-      },
-      "PdfiumViewer/2.13.0": {
-        "type": "package",
-        "compile": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "resource": {
-          "lib/net20/nl/PdfiumViewer.resources.dll": {
-            "locale": "nl"
           }
         }
       },
@@ -33946,24 +32612,6 @@
           }
         }
       },
-      "PdfiumViewer/2.13.0": {
-        "type": "package",
-        "compile": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "resource": {
-          "lib/net20/nl/PdfiumViewer.resources.dll": {
-            "locale": "nl"
-          }
-        }
-      },
       "runtime.any.System.Runtime/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -34841,24 +33489,6 @@
         "runtime": {
           "lib/net6.0/MySqlConnector.dll": {
             "related": ".xml"
-          }
-        }
-      },
-      "PdfiumViewer/2.13.0": {
-        "type": "package",
-        "compile": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "resource": {
-          "lib/net20/nl/PdfiumViewer.resources.dll": {
-            "locale": "nl"
           }
         }
       },
@@ -35742,24 +34372,6 @@
           }
         }
       },
-      "PdfiumViewer/2.13.0": {
-        "type": "package",
-        "compile": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "resource": {
-          "lib/net20/nl/PdfiumViewer.resources.dll": {
-            "locale": "nl"
-          }
-        }
-      },
       "runtime.any.System.Runtime/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -36637,24 +35249,6 @@
         "runtime": {
           "lib/net6.0/MySqlConnector.dll": {
             "related": ".xml"
-          }
-        }
-      },
-      "PdfiumViewer/2.13.0": {
-        "type": "package",
-        "compile": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "resource": {
-          "lib/net20/nl/PdfiumViewer.resources.dll": {
-            "locale": "nl"
           }
         }
       },
@@ -37538,24 +36132,6 @@
         "runtime": {
           "lib/net6.0/MySqlConnector.dll": {
             "related": ".xml"
-          }
-        }
-      },
-      "PdfiumViewer/2.13.0": {
-        "type": "package",
-        "compile": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "resource": {
-          "lib/net20/nl/PdfiumViewer.resources.dll": {
-            "locale": "nl"
           }
         }
       },
@@ -38636,24 +37212,6 @@
           }
         }
       },
-      "PdfiumViewer/2.13.0": {
-        "type": "package",
-        "compile": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "resource": {
-          "lib/net20/nl/PdfiumViewer.resources.dll": {
-            "locale": "nl"
-          }
-        }
-      },
       "System.Configuration.ConfigurationManager/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -39666,24 +38224,6 @@
           }
         }
       },
-      "PdfiumViewer/2.13.0": {
-        "type": "package",
-        "compile": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "resource": {
-          "lib/net20/nl/PdfiumViewer.resources.dll": {
-            "locale": "nl"
-          }
-        }
-      },
       "runtime.any.System.Runtime/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -40690,24 +39230,6 @@
         "runtime": {
           "lib/net6.0/MySqlConnector.dll": {
             "related": ".xml"
-          }
-        }
-      },
-      "PdfiumViewer/2.13.0": {
-        "type": "package",
-        "compile": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "resource": {
-          "lib/net20/nl/PdfiumViewer.resources.dll": {
-            "locale": "nl"
           }
         }
       },
@@ -41720,24 +40242,6 @@
           }
         }
       },
-      "PdfiumViewer/2.13.0": {
-        "type": "package",
-        "compile": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "resource": {
-          "lib/net20/nl/PdfiumViewer.resources.dll": {
-            "locale": "nl"
-          }
-        }
-      },
       "runtime.any.System.Runtime/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -42744,24 +41248,6 @@
         "runtime": {
           "lib/net6.0/MySqlConnector.dll": {
             "related": ".xml"
-          }
-        }
-      },
-      "PdfiumViewer/2.13.0": {
-        "type": "package",
-        "compile": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "resource": {
-          "lib/net20/nl/PdfiumViewer.resources.dll": {
-            "locale": "nl"
           }
         }
       },
@@ -43774,24 +42260,6 @@
           }
         }
       },
-      "PdfiumViewer/2.13.0": {
-        "type": "package",
-        "compile": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "resource": {
-          "lib/net20/nl/PdfiumViewer.resources.dll": {
-            "locale": "nl"
-          }
-        }
-      },
       "runtime.any.System.Runtime/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -44798,24 +43266,6 @@
         "runtime": {
           "lib/net6.0/MySqlConnector.dll": {
             "related": ".xml"
-          }
-        }
-      },
-      "PdfiumViewer/2.13.0": {
-        "type": "package",
-        "compile": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "resource": {
-          "lib/net20/nl/PdfiumViewer.resources.dll": {
-            "locale": "nl"
           }
         }
       },
@@ -45837,24 +44287,6 @@
         "runtime": {
           "lib/net6.0/MySqlConnector.dll": {
             "related": ".xml"
-          }
-        }
-      },
-      "PdfiumViewer/2.13.0": {
-        "type": "package",
-        "compile": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net20/PdfiumViewer.dll": {
-            "related": ".xml"
-          }
-        },
-        "resource": {
-          "lib/net20/nl/PdfiumViewer.resources.dll": {
-            "locale": "nl"
           }
         }
       },
@@ -47885,22 +46317,6 @@
         "mysqlconnector.nuspec"
       ]
     },
-    "PdfiumViewer/2.13.0": {
-      "sha512": "Nw4owBmJzDVXoMRjCnqPbET07CPOawwhcNjt+PyRaSxONN9bsFF+cm9kcMsDLEAEaxsiDJo5jls8bCQjvjidkA==",
-      "type": "package",
-      "path": "pdfiumviewer/2.13.0",
-      "hasTools": true,
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Tools/Install.ps1",
-        "lib/net20/PdfiumViewer.dll",
-        "lib/net20/PdfiumViewer.xml",
-        "lib/net20/nl/PdfiumViewer.resources.dll",
-        "pdfiumviewer.2.13.0.nupkg.sha512",
-        "pdfiumviewer.nuspec"
-      ]
-    },
     "runtime.any.System.Globalization/4.3.0": {
       "sha512": "sMDBnad4rp4t7GY442Jux0MCUuKL4otn5BK6Ni0ARTXTSpRNBzZ7hpMfKSvnVSED5kYJm96YOWsqV0JH0d2uuw==",
       "type": "package",
@@ -48246,160 +46662,6 @@
         "runtimes/aot/lib/netcore50/System.Private.Uri.dll",
         "runtimes/win/lib/netcore50/System.Private.Uri.dll",
         "runtimes/win/lib/netstandard1.0/System.Private.Uri.dll"
-      ]
-    },
-    "Syncfusion.Licensing/20.4.0.53": {
-      "sha512": "UPB64fZz+Qmj/sh26bxk6And0NU2qxRAyGkf6y4ZNUWAwV9TgudwTUg9FOrI5Ah7hCLOuurDQ6kqg0m+Vp0zeQ==",
-      "type": "package",
-      "path": "syncfusion.licensing/20.4.0.53",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.txt",
-        "lib/MonoAndroid10.0/Syncfusion.Licensing.dll",
-        "lib/MonoAndroid90/Syncfusion.Licensing.dll",
-        "lib/Xamarin.Mac/Syncfusion.Licensing.dll",
-        "lib/Xamarin.iOS10/Syncfusion.Licensing.dll",
-        "lib/net20/Syncfusion.Licensing.dll",
-        "lib/net35/Syncfusion.Licensing.dll",
-        "lib/net40/Syncfusion.Licensing.dll",
-        "lib/net45/Syncfusion.Licensing.dll",
-        "lib/net451/Syncfusion.Licensing.dll",
-        "lib/net46/Syncfusion.Licensing.dll",
-        "lib/net6.0-windows7.0/Syncfusion.Licensing.dll",
-        "lib/net6.0/Syncfusion.Licensing.dll",
-        "lib/net7.0-windows7.0/Syncfusion.Licensing.dll",
-        "lib/net7.0/Syncfusion.Licensing.dll",
-        "lib/netcoreapp3.1/Syncfusion.Licensing.dll",
-        "lib/netstandard1.0/Syncfusion.Licensing.dll",
-        "lib/netstandard1.2/Syncfusion.Licensing.dll",
-        "lib/netstandard1.4/Syncfusion.Licensing.dll",
-        "lib/netstandard2.0/Syncfusion.Licensing.dll",
-        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Licensing.dll",
-        "lib/uap10.0/Syncfusion.Licensing.dll",
-        "syncfusion.licensing.20.4.0.53.nupkg.sha512",
-        "syncfusion.licensing.nuspec",
-        "syncfusion_logo.png"
-      ]
-    },
-    "Syncfusion.Xamarin.Compression/20.4.0.53": {
-      "sha512": "WbEo2SYLovYGAKkIVfooNnavVD0s+vdRe4sKBfJv8zS/bJ4fNOeZJeuF9/0STpQlUvuZXK7t6CxXNwLR/GfXJw==",
-      "type": "package",
-      "path": "syncfusion.xamarin.compression/20.4.0.53",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.txt",
-        "README.md",
-        "lib/netstandard1.4/Syncfusion.Compression.Portable.dll",
-        "lib/netstandard1.4/Syncfusion.Compression.Portable.xml",
-        "lib/netstandard2.0/Syncfusion.Compression.Portable.dll",
-        "lib/netstandard2.0/Syncfusion.Compression.Portable.xml",
-        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Compression.Portable.dll",
-        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Compression.Portable.xml",
-        "syncfusion.xamarin.compression.20.4.0.53.nupkg.sha512",
-        "syncfusion.xamarin.compression.nuspec",
-        "syncfusion_logo.png"
-      ]
-    },
-    "Syncfusion.Xamarin.Pdf/20.4.0.53": {
-      "sha512": "Kp36D5vXkNoSb9OT/s6/swwEy3ODmAAzQPpm+xbKUXnNYC3MyoQDqGabY8geNBssGIqtl8OYAmHGhZprBqyuSQ==",
-      "type": "package",
-      "path": "syncfusion.xamarin.pdf/20.4.0.53",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.txt",
-        "README.md",
-        "lib/netstandard1.4/Syncfusion.Pdf.Portable.XML",
-        "lib/netstandard1.4/Syncfusion.Pdf.Portable.dll",
-        "lib/netstandard2.0/Syncfusion.Pdf.Portable.XML",
-        "lib/netstandard2.0/Syncfusion.Pdf.Portable.dll",
-        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Pdf.Portable.XML",
-        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Pdf.Portable.dll",
-        "syncfusion.xamarin.pdf.20.4.0.53.nupkg.sha512",
-        "syncfusion.xamarin.pdf.nuspec",
-        "syncfusion_logo.png"
-      ]
-    },
-    "Syncfusion.Xamarin.SfBusyIndicator.Android/20.4.0.53": {
-      "sha512": "MbzZLoTyWV5Sz/bERppq3bBtppkWN+9QtBNxP88uoy9GPdLUWrNkPRBqvdSJoFtrYNMahkm9f+TzVHP5RgLT+Q==",
-      "type": "package",
-      "path": "syncfusion.xamarin.sfbusyindicator.android/20.4.0.53",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.txt",
-        "README.md",
-        "lib/MonoAndroid10.0/Syncfusion.SfBusyIndicator.Android.dll",
-        "lib/MonoAndroid10.0/Syncfusion.SfBusyIndicator.Android.xml",
-        "syncfusion.xamarin.sfbusyindicator.android.20.4.0.53.nupkg.sha512",
-        "syncfusion.xamarin.sfbusyindicator.android.nuspec",
-        "syncfusion_logo.png"
-      ]
-    },
-    "Syncfusion.Xamarin.SfPdfViewer.Android/20.4.0.53": {
-      "sha512": "/it6dvDVB6PfaxAdPXx8DlOQpt9BMg9+SqnVUXpJmWl3F6CdbdP/o0yG02gcXXUDYWOWZ9XFxHnZLYQCrcnfHA==",
-      "type": "package",
-      "path": "syncfusion.xamarin.sfpdfviewer.android/20.4.0.53",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.txt",
-        "README.md",
-        "lib/MonoAndroid10.0/Syncfusion.SfPdfViewer.Android.XML",
-        "lib/MonoAndroid10.0/Syncfusion.SfPdfViewer.Android.dll",
-        "syncfusion.xamarin.sfpdfviewer.android.20.4.0.53.nupkg.sha512",
-        "syncfusion.xamarin.sfpdfviewer.android.nuspec",
-        "syncfusion_logo.png"
-      ]
-    },
-    "Syncfusion.Xamarin.SfProgressBar.Android/20.4.0.53": {
-      "sha512": "oDRh0CNojqIOyZM1KqHugVzFnZm3ILCU66+f2kgpE9e28y0K9HO/KUKg6qqX6eLaByq1jpVxDqV4ZwuHT4zDtg==",
-      "type": "package",
-      "path": "syncfusion.xamarin.sfprogressbar.android/20.4.0.53",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.txt",
-        "README.md",
-        "lib/MonoAndroid10.0/Syncfusion.SfProgressBar.Android.XML",
-        "lib/MonoAndroid10.0/Syncfusion.SfProgressBar.Android.dll",
-        "syncfusion.xamarin.sfprogressbar.android.20.4.0.53.nupkg.sha512",
-        "syncfusion.xamarin.sfprogressbar.android.nuspec",
-        "syncfusion_logo.png"
-      ]
-    },
-    "Syncfusion.Xamarin.SfRangeSlider.Android/20.4.0.53": {
-      "sha512": "btxRg+W/MV3a5WEgEWKdjqQ/Mi73EU/FH02e6XO9a8Dv9OkfqAWOVTQZ0arUkcJX1ycJpCS6p4H5LELp5SvG7w==",
-      "type": "package",
-      "path": "syncfusion.xamarin.sfrangeslider.android/20.4.0.53",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.txt",
-        "README.md",
-        "lib/MonoAndroid10.0/Syncfusion.SfRangeSlider.Android.dll",
-        "lib/MonoAndroid10.0/Syncfusion.SfRangeSlider.Android.xml",
-        "syncfusion.xamarin.sfrangeslider.android.20.4.0.53.nupkg.sha512",
-        "syncfusion.xamarin.sfrangeslider.android.nuspec",
-        "syncfusion_logo.png"
-      ]
-    },
-    "Syncfusion.Xamarin.SfTabView.Android/20.4.0.53": {
-      "sha512": "2slHm7h/q5s4wS9nwoYemFlSGKO5JZrAMhQZmBQZJR5ErP8cyL6IWPecjKA2RWGF7u6K7tgFrzG0bkDlrGh35w==",
-      "type": "package",
-      "path": "syncfusion.xamarin.sftabview.android/20.4.0.53",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.txt",
-        "README.md",
-        "lib/MonoAndroid10.0/Syncfusion.SfTabView.Android.dll",
-        "lib/MonoAndroid10.0/Syncfusion.SfTabView.Android.xml",
-        "syncfusion.xamarin.sftabview.android.20.4.0.53.nupkg.sha512",
-        "syncfusion.xamarin.sftabview.android.nuspec",
-        "syncfusion_logo.png"
       ]
     },
     "System.Buffers/4.5.1": {
@@ -51894,9 +50156,7 @@
       "Microsoft.Data.SqlClient >= 5.1.0",
       "Microsoft.Maui.Dependencies >= 6.0.548",
       "Microsoft.Maui.Extensions >= 6.0.548",
-      "MySqlConnector >= 2.2.5",
-      "PdfiumViewer >= 2.13.0",
-      "Syncfusion.Xamarin.SfPdfViewer.Android >= 20.4.0.53"
+      "MySqlConnector >= 2.2.5"
     ],
     "net6.0-ios16.1": [
       "BCrypt.Net-Next >= 4.0.3",
@@ -51904,7 +50164,6 @@
       "Microsoft.Maui.Dependencies >= 6.0.548",
       "Microsoft.Maui.Extensions >= 6.0.548",
       "MySqlConnector >= 2.2.5",
-      "PdfiumViewer >= 2.13.0",
       "System.Runtime.InteropServices.NFloat.Internal >= 6.0.1"
     ],
     "net6.0-maccatalyst16.1": [
@@ -51913,7 +50172,6 @@
       "Microsoft.Maui.Dependencies >= 6.0.548",
       "Microsoft.Maui.Extensions >= 6.0.548",
       "MySqlConnector >= 2.2.5",
-      "PdfiumViewer >= 2.13.0",
       "System.Runtime.InteropServices.NFloat.Internal >= 6.0.1"
     ],
     "net6.0-windows10.0.19041": [
@@ -51922,8 +50180,7 @@
       "Microsoft.Maui.Dependencies >= 6.0.548",
       "Microsoft.Maui.Extensions >= 6.0.548",
       "Microsoft.Windows.SDK.BuildTools >= 10.0.22000.194",
-      "MySqlConnector >= 2.2.5",
-      "PdfiumViewer >= 2.13.0"
+      "MySqlConnector >= 2.2.5"
     ]
   },
   "packageFolders": {
@@ -52008,14 +50265,6 @@
           "MySqlConnector": {
             "target": "Package",
             "version": "[2.2.5, )"
-          },
-          "PdfiumViewer": {
-            "target": "Package",
-            "version": "[2.13.0, )"
-          },
-          "Syncfusion.Xamarin.SfPdfViewer.Android": {
-            "target": "Package",
-            "version": "[20.4.0.53, )"
           }
         },
         "imports": [
@@ -52131,10 +50380,6 @@
             "target": "Package",
             "version": "[2.2.5, )"
           },
-          "PdfiumViewer": {
-            "target": "Package",
-            "version": "[2.13.0, )"
-          },
           "System.Runtime.InteropServices.NFloat.Internal": {
             "target": "Package",
             "version": "[6.0.1, )",
@@ -52229,10 +50474,6 @@
           "MySqlConnector": {
             "target": "Package",
             "version": "[2.2.5, )"
-          },
-          "PdfiumViewer": {
-            "target": "Package",
-            "version": "[2.13.0, )"
           },
           "System.Runtime.InteropServices.NFloat.Internal": {
             "target": "Package",
@@ -52335,10 +50576,6 @@
           "MySqlConnector": {
             "target": "Package",
             "version": "[2.2.5, )"
-          },
-          "PdfiumViewer": {
-            "target": "Package",
-            "version": "[2.13.0, )"
           }
         },
         "imports": [
@@ -52437,17 +50674,5 @@
         "#import": []
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'PdfiumViewer 2.13.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0-android31.0'. This package may not be fully compatible with your project.",
-      "libraryId": "PdfiumViewer",
-      "targetGraphs": [
-        "net6.0-android31.0"
-      ]
-    }
-  ]
+  }
 }
